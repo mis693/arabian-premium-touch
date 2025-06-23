@@ -1,0 +1,98 @@
+/* Main Styling for Arabian Premium Touch */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #0f0f0f;
+  color: #ffffff;
+}
+
+header {
+  background-color: #1a1a1a;
+  padding: 20px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 1px solid #444;
+}
+
+header h1 {
+  font-size: 28px;
+  color: #d4af37;
+  margin: 0;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #d4af37;
+}
+
+.hero {
+  background: url('https://your-chocolate-image-link.com') no-repeat center center/cover;
+  padding: 120px 20px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 36px;
+  color: #ffffff;
+}
+
+.hero p {
+  font-size: 18px;
+  max-width: 600px;
+  margin: 0 auto;
+  color: #dddddd;
+}
+
+.button {
+  background-color: #d4af37;
+  color: #000;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.card {
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.03);
+  border: 1px solid #333;
+}
+
+.card h3 {
+  color: #d4af37;
+}
+
+footer {
+  background-color: #1a1a1a;
+  color: #aaa;
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 14px;
+  border-top: 1px solid #444;
+}
